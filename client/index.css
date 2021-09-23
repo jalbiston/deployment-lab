@@ -5,3 +5,40 @@ body {
     color: black;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
+
+#game-winner {
+    color: blue;
+    display: flex;
+    justify-content: center;
+    height: 20px;
+
+    
+}
+
+#win{
+    position: absolute;
+    top: 50px
+}
+
+button{
+    height: 40px;
+    width: 170px;
+    border-radius: 20px;
+    font-size: 15px;
+
+
+}
+
+#buttons{
+    display: flex;
+    justify-content: center;
+}
+
+button:hover {
+    height: 45px;
+    width: 175px;
+    border-radius: 25 px;
+    color: white;
+    background-color: blue;
+    font-weight: bold
+}
